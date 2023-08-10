@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "node-chatgpt",
+  "version": "1.0.0",
+  "description": "Base Node Setup",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "ts": "node --loader ts-node/esm src/main.ts",
+    "js": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "@types/node": "^20.4.1",
+    "husky": "^8.0.3",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
